@@ -1,6 +1,6 @@
 # 説明
 - [Hatjitsu](https://hatjitsu.toolforge.org/) が不安定な時にローカルで Hatjitu を起動して使用することができます。
-- Hatjitsu をローカルで起動し、ngrock を使って外部に公開します。
+  - ngrock を使って外部に公開します。
 
 # 使い方
 ```sh
