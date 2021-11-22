@@ -14,6 +14,8 @@ services:
     environment:
       NGROK_PROTOCOL: http
       NGROK_PORT: hatjitsu:5000
+      NGROK_DEBUG: "true"
+      NGROK_REGION: "jp"
     depends_on:
       - hatjitsu
 
