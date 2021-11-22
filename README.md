@@ -1,1 +1,1 @@
-# hatjitsu_ngrock
+hatjitsuをローカルで起動し、ngrockを使って外部に公開します

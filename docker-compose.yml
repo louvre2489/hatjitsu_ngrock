@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  hatjitsu:
+    image: jlagerweij/hatjitsu:latest
+    ports:
+      - 5000:5000
+    container_name: hatjitsu
+
+  ngrok:
+    image: wernight/ngrok:latest
+    ports:
+      - 4040:4040
+    environment:
+      NGROK_PROTOCOL: http
+      NGROK_PORT: hatjitsu:5000
+    depends_on:
+      - hatjitsu
+
